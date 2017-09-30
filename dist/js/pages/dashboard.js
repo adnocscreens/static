@@ -123,8 +123,8 @@ $(function () {
   $('#chat-box').slimScroll({
     height: '250px'
   });
-  var $myCarousel = $('.carousel').carousel({
-    interval: 10000,
+  var $myCarousel = $('#hero-carousel').carousel({
+    interval: 12000,
     pause: false
   })
     //Function to animate slider captions 
@@ -140,23 +140,13 @@ $(function () {
       });
     });
   }
-  
-  //Variables on page load 
-    var $firstAnimatingElems = $myCarousel.find('.item:first').find("[data-animation ^= 'animated']");
-    
-  //Initialize carousel 
-  // $myCarousel.carousel();
-  
-  //Animate captions in first slide on page load 
-  // doAnimations($firstAnimatingElems);
-  
-  // //Pause carousel  
-  // $myCarousel.carousel('pause');
-  
-  
   //Other slides to be animated on carousel slide event 
   $myCarousel.on('slide.bs.carousel', function (e) {
     var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
     doAnimations($animatingElems);
   }); 
+  var vertical = $('.carousel-vertical').carousel({
+    interval: 4000,
+    pause: false
+  })
 });

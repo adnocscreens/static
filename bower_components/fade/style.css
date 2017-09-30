@@ -1,33 +1,40 @@
-/*#hero-wrapper {
+.vertical .carousel-inner {
   height: 100%;
-  width: 100%;
-  position: relative;
 }
-#hero-wrapper .carousel-wrapper,
-#hero-carousel {
-  height: 100%;
-  width: 100%;
-  position: absolute;
+
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
 }
-.carousel-fade .carousel-inner .item {
-  transition: all 1s ease;
-  opacity: 0;
-  transition-property: opacity;
+
+.carousel.vertical .active {
+  top: 0;
 }
-.carousel-fade .carousel-inner .active {
-  transition: all 1s ease;
-  opacity: 1;
+
+.carousel.vertical .next {
+  top: 100%;
 }
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  left: 0;
-  opacity: 0;
-  z-index: 1;
+
+.carousel.vertical .prev {
+  top: -100%;
 }
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-  opacity: 1;
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
 }
-.carousel-fade .carousel-control {
-  z-index: 2;
-}*/
+
+.carousel.vertical .active.left {
+  top: -100%;
+}
+
+.carousel.vertical .active.right {
+  top: 100%;
+}
+
+.carousel.vertical .item {
+    left: 0;
+}
