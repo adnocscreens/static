@@ -148,7 +148,7 @@ $(function () {
   // $myCarousel.carousel();
   
   //Animate captions in first slide on page load 
-  doAnimations($firstAnimatingElems);
+  // doAnimations($firstAnimatingElems);
   
   // //Pause carousel  
   // $myCarousel.carousel('pause');
