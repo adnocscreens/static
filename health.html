@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Adnoc | Mailbox Active Connection</title>
+        <title>Adnoc | Availability &amp; Health</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <!-- Bootstrap 3.3.7 -->
@@ -96,9 +96,9 @@
                     </div>
                     <ul class="sidebar-menu tree" data-widget="tree">
                         <li class=""><a href="/static/">Database User Connection Count</a></li>
-                        <li class="active"><a href="/static/mail-box.html">Mailbox Active Connection</a></li>
+                        <li class=""><a href="/static/mail-box.html">Mailbox Active Connection</a></li>
                         <li class=""><a href="/static/netflow.html">Netflow Traffic</a></li>
-                        <li class=""><a href="/static/health.html">Availability &amp; Health</a></li>
+                        <li class="active"><a href="/static/health.html">Availability &amp; Health</a></li>
                     </ul>
                 </section>
                 <!-- /.sidebar -->
@@ -109,12 +109,11 @@
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
                     <h1>
-                        Mailbox  
-                        <small>Active Connection</small>
+                        Availability &amp Health
                     </h1>
                     <ol class="breadcrumb">
                         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                        <li class="active">Mailbox Active Connection</li>
+                        <li class="active">Availability &amp; Health</li>
                     </ol>
                 </section>
 
@@ -125,101 +124,109 @@
                             <div class="item active">
                                 <div class="row">
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
-                                        <div class="info-box bg-aqua" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                        <div class="info-box bg-green" data-animation="animated flipInX">
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">GASCO HQ</span>
-                                                <span class="info-box-number">150</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 80%"></div>
                                                 </div>
+                                                <span class="progress-description">80% Available</span>
                                             </div>
                                         <!-- /.info-box-content -->
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
-                                        <div class="info-box bg-orange" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                        <div class="info-box bg-red" data-animation="animated flipInX">
+                                            <span class="info-box-icon"><i class="fa fa-close"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">Takreer HQ</span>
-                                                <span class="info-box-number">215</span>
+                                                <span class="info-box-number">Error</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 0%"></div>
                                                 </div>
+                                                <span class="progress-description">No Response</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
-                                        <div class="info-box bg-red" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                        <div class="info-box bg-green" data-animation="animated flipInX">
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">ZADCO</span>
-                                                <span class="info-box-number">550</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 90%"></div>
                                                 </div>
+                                                <span class="progress-description">90% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
-                                        <div class="info-box bg-yellow" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                        <div class="info-box bg-orange" data-animation="animated flipInX">
+                                            <span class="info-box-icon"><i class="fa fa-warning"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">ADCO</span>
-                                                <span class="info-box-number">10</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 20%"></div>
                                                 </div>
+                                                <span class="progress-description">20% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
-                                        <div class="info-box bg-aqua" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                        <div class="info-box bg-yellow" data-animation="animated flipInX">
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">GDC</span>
-                                                <span class="info-box-number">50</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 40%"></div>
                                                 </div>
+                                                <span class="progress-description">40% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
-                                        <div class="info-box bg-red" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                        <div class="info-box bg-aqua" data-animation="animated flipInX">
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">ATI-SHAWAMEKH</span>
-                                                <span class="info-box-number">210</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 60%"></div>
                                                 </div>
+                                                <span class="progress-description">60% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
                                         <div class="info-box bg-aqua" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">Ruwais New Hospital</span>
-                                                <span class="info-box-number">230</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 65%"></div>
                                                 </div>
+                                                <span class="progress-description">65% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
                                         <div class="info-box bg-aqua" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">Sal Al Nakel</span>
-                                                <span class="info-box-number">1230</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 70%"></div>
                                                 </div>
+                                                <span class="progress-description">70% Available</span>
                                             </div>
                                         </div>
                                     </div>
@@ -227,49 +234,53 @@
                                 <div class="row">
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
                                         <div class="info-box bg-green" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">ESNAAD</span>
-                                                <span class="info-box-number">120</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 90%"></div>
                                                 </div>
+                                                <span class="progress-description">90% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
-                                        <div class="info-box bg-red" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                        <div class="info-box bg-orange" data-animation="animated flipInX">
+                                            <span class="info-box-icon"><i class="fa fa-warning"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">ADMA</span>
-                                                <span class="info-box-number">2300</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width:5%"></div>
                                                 </div>
+                                                <span class="progress-description">5% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
                                         <div class="info-box bg-aqua" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">Nation Tower</span>
-                                                <span class="info-box-number">330</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 70%"></div>
                                                 </div>
+                                                <span class="progress-description">70% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
-                                        <div class="info-box bg-yellow" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                        <div class="info-box bg-orange" data-animation="animated flipInX">
+                                            <span class="info-box-icon"><i class="fa fa-warning"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">Al Hosn</span>
-                                                <span class="info-box-number">4</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 8%"></div>
                                                 </div>
+                                                <span class="progress-description">8% Available</span>
                                             </div>
                                         </div>
                                     </div>
@@ -279,49 +290,53 @@
                                 <div class="row">
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
                                         <div class="info-box bg-aqua" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">GDC</span>
-                                                <span class="info-box-number">50</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 55%"></div>
                                                 </div>
+                                                <span class="progress-description">55% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
-                                        <div class="info-box bg-red" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                        <div class="info-box bg-yellow" data-animation="animated flipInX">
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">ATI-SHAWAMEKH</span>
-                                                <span class="info-box-number">210</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 40%"></div>
                                                 </div>
+                                                <span class="progress-description">40% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
                                         <div class="info-box bg-aqua" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">Ruwais New Hospital</span>
-                                                <span class="info-box-number">230</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 570%"></div>
                                                 </div>
+                                                <span class="progress-description">57% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
                                         <div class="info-box bg-aqua" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">Sal Al Nakel</span>
-                                                <span class="info-box-number">1230</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 68%"></div>
                                                 </div>
+                                                <span class="progress-description">68% Available</span>
                                             </div>
                                         </div>
                                     </div>
@@ -329,49 +344,53 @@
                                 <div class="row">
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
                                         <div class="info-box bg-green" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">ESNAAD</span>
-                                                <span class="info-box-number">120</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 90%"></div>
                                                 </div>
+                                                <span class="progress-description">90% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
-                                        <div class="info-box bg-red" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                        <div class="info-box bg-orange" data-animation="animated flipInX">
+                                            <span class="info-box-icon"><i class="fa fa-warning"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">ADMA</span>
-                                                <span class="info-box-number">2300</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 2%"></div>
                                                 </div>
+                                                <span class="progress-description">2% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
                                         <div class="info-box bg-aqua" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">Nation Tower</span>
-                                                <span class="info-box-number">330</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 58%"></div>
                                                 </div>
+                                                <span class="progress-description">58% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
                                         <div class="info-box bg-yellow" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">Al Hosn</span>
-                                                <span class="info-box-number">4</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 35%"></div>
                                                 </div>
+                                                <span class="progress-description">35% Available</span>
                                             </div>
                                         </div>
                                     </div>
@@ -379,50 +398,54 @@
                                 <div class="row">
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
                                         <div class="info-box bg-aqua" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">GASCO HQ</span>
                                                 <span class="info-box-number">150</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 58%"></div>
                                                 </div>
+                                                <span class="progress-description">58% Available</span>
                                             </div>
                                         <!-- /.info-box-content -->
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
-                                        <div class="info-box bg-orange" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                        <div class="info-box bg-green" data-animation="animated flipInX">
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">Takreer HQ</span>
-                                                <span class="info-box-number">215</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 90%"></div>
                                                 </div>
+                                                <span class="progress-description">90% Available</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
                                         <div class="info-box bg-red" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                            <span class="info-box-icon"><i class="fa fa-close"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">ZADCO</span>
-                                                <span class="info-box-number">550</span>
+                                                <span class="info-box-number">Error</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 0%"></div>
                                                 </div>
+                                                <span class="progress-description">Timed Out</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-xs-6 col-4k-3">
-                                        <div class="info-box bg-yellow" data-animation="animated flipInX">
-                                            <span class="info-box-icon"><i class="fa fa-envelope-open"></i></span>
+                                        <div class="info-box bg-green" data-animation="animated flipInX">
+                                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">ADCO</span>
-                                                <span class="info-box-number">10</span>
+                                                <span class="info-box-number">Available</span>
                                                 <div class="progress">
-                                                    <div class="progress-bar" style="width: 100%"></div>
+                                                    <div class="progress-bar" style="width: 90%"></div>
                                                 </div>
+                                                <span class="progress-description">90% Available</span>
                                             </div>
                                         </div>
                                     </div>
